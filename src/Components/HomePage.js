@@ -13,7 +13,6 @@ function HomePage() {
                     <button>Order Now!</button>
                 </Link>
             </div>
-            
         </div>
     )
 }
