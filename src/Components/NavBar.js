@@ -1,15 +1,17 @@
 import React from 'react'
+import "./navbar.css"
+import {Link} from 'react-router-dom';
 
 function NavBar() {
     return (
-        <div>
+        <div className="nav-bar">
            <h1>Lambda Eats</h1>
-            <ol>
-                <a href="www.google.com">Home</a>
-                <a href="www.google.com">About</a>
-                <a href="www.google.com">Order Now</a>
-                <a href="www.google.com">Contact Us</a>
-            </ol>
+            <nav>
+                <Link to={`/`}>Home</Link>
+                <Link to={`/about`}>About</Link>
+                <Link to={`/pizza`}>Order Now</Link>
+                <Link to={`/contact`}>Contact Us</Link>
+            </nav>
         </div>
     )
 }

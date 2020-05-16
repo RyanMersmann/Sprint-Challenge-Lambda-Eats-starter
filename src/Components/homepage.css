@@ -1,0 +1,23 @@
+.home-background {
+    border: 1px solid red;
+    background: rgb(165, 28, 28);
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.slogan {
+    font-size: 3rem;
+    margin-bottom: 100px;
+    color: white;
+}
+
+button {
+    font-size: 2rem;
+}
+
+button:hover{
+    background-color: blue;
+}
