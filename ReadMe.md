@@ -1,5 +1,7 @@
 # Single Page Applications Sprint Challenge
 
+by Ryan Mersmann
+
 The sprint challenge is your chance to independently work through material and build on what you learned this week. In today's project you will build a form for Lambda Eats, a website designed to bring food to hungry coders.
 
 ## Introduction
@@ -13,8 +15,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your Team Lead.
 
 1. In 1-2 sentences, explain what React's `useRouteMatch` hook is used for.
+
+- useRouteMatch provides access to the match object, and returns the closest match in the component or its parents to construct nested paths.
+
 2. How would you explain form validation to someone who has never programmed before?
+
+- Form validation is when a form submitted online is programmed to check if the information typed matches the field it was typed in. For example in an email field, it would check if the entry had an @ symbol and .com.
+
 3. In 1-2 sentences, define end to end testing.
+
+-  End to end testing is a testing method used to test whether an application is working correctly from start to finish or back end to front end. This testing is used to see if the data integrity is maintained between systems and pages.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section **will** prevent you from passing this challenge.
 
