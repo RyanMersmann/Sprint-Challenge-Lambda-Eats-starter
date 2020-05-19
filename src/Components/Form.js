@@ -334,9 +334,7 @@ function Form() {
                             />
                         </div>
                     </div>
-
-
-
+                <span>Special Instructions</span>
                 <label htmlFor="specialInstructions">
                     Any special instructions?
                     <br/>

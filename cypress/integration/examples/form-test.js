@@ -4,7 +4,7 @@ describe("Testing our form inputs", () => {
     beforeEach(function () {
         // runs before each test in this block
         // arrange
-        cy.visit("http://localhost:3000")
+        cy.visit("http://localhost:3000/pizza")
     });
 
     it("input name into name input", () => {
@@ -19,7 +19,6 @@ describe("Testing our form inputs", () => {
     it("check multiple boxes", () => {
         cy.get('[type="checkbox"]').check()       // Check checkbox element
         cy.get('[type="checkbox"]').first().check()  // Check first radio element
-        cy.get('[type="checkbox"]').check('pepperoni', 'canadianbacon')  // Check last radio element
     });
 
     //submit a form
